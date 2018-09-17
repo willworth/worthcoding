@@ -16,11 +16,10 @@ const Contact = () => (
       My desire to improve these skills led me to choose Gatsby to build
       this site (though, frankly, react seems to be overkill for a simple blog). </p>
     <p> If you have any questions about the contents of this site, or want to talk about collaboration
-       (I'm open to opensource work, too), please do get in touch either
-        via social networks.  (Facebook is my least favourite here, but I'll make an exception for you...</p>
+       (I'm open to opensource work, too), please do get in touch.</p>
 
     <p> 
-      Or email me willworthcoding  at  gmail dot com </p>
+    <a href="mailto:willworthcoding@gmail.com">Send me an email</a></p>
     <p>Thanks for your interest.</p>
               
     <blockquote>       

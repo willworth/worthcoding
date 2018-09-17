@@ -5,14 +5,24 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>You've reached my code site.  Welcome.  Thanks for visting.</h1>
-    <p>My name's Will -I'm a Javascript and Python focused coder with some professional experience.
-    <em> I'm looking for a full time role as a software developer.</em> </p>
+    <h1>You've reached my code site.</h1>
+    <p>Welcome.  Thanks for visting. My name's Will -I'm a Javascript and
+       Python developer with some professional experience
+    <em> looking for a full time role in Berlin.</em> </p>
+    <p>I'm currently putting together a portfolio and C.V., but if you're here reading this, then great! <br/>
+    
+<a href="mailto:willworthcoding@gmail.com">Send me an email</a> or check out <Link to="/blog">the code blog</Link>.
+</p>
+    <br></br>
     <img src={will} alt="Will" class="willpic"  />
     
-    <p> If you have any questions about the contents of this site, or want to talk about collaboration
-       (I'm open to opensource work, too), please do get in touch via twitter or  email me willworthcoding  at  gmail dot com </p>
-    <p>Thanks for your interest.  Why not check out <Link to="/blog">the blog</Link>?</p>
+    
+
+
+
+
+       
+     
     
 
   </Layout>
