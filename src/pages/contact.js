@@ -8,7 +8,7 @@ const Contact = () => (
     <h1>Hi!</h1>
   <blockquote>
     <p>I'm a Javascript and Python focused coder with some professional experience.
-       I'm looking for a full time role as a software developer.</p>
+       I'm looking for a full time role developer position in Berlin.</p>
     </blockquote>  
     <p>Apart from the above, I've also worked with wordpress and PHP, and worked as a tester with a
        python stack using flask and a large scale webscraping project. </p>
@@ -20,7 +20,7 @@ const Contact = () => (
 
     <p> 
     <a href="mailto:willworthcoding@gmail.com">Send me an email</a></p>
-    <p>Thanks for your interest.</p>
+    
               
     <blockquote>       
 
