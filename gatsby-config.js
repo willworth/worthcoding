@@ -3,7 +3,7 @@ module.exports = {
     title: 'worthcoding.net',
     author: 'Will Worth',
     description: 'Coding blog of coder and writer Will Worth.',
-    siteUrl: 'https://www.willworth.net/',
+    siteUrl: 'https://www.worthcoding.net/',
   },
 
     pathPrefix: '/gatsby-starter-blog',

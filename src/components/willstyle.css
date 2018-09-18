@@ -15,3 +15,9 @@ a {
     font-weight: bold;
     /* font-size: 1.2em; */
 }
+
+
+.willpic {
+max-height : 500px;
+align-self: right;
+}
