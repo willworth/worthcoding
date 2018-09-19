@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "worthcoding-20180918142500-authRole",
+			"UnauthRoleArn": "arn:aws:iam::037168667233:role/worthcoding-20180918142500-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::037168667233:role/worthcoding-20180918142500-authRole",
+			"Region": "eu-central-1",
+			"DeploymentBucketName": "worthcoding-20180918142500-deployment",
+			"UnauthRoleName": "worthcoding-20180918142500-unauthRole",
+			"StackName": "worthcoding-20180918142500",
+			"StackId": "arn:aws:cloudformation:eu-central-1:037168667233:stack/worthcoding-20180918142500/dd161050-bb3d-11e8-9f0a-024e51706334"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/worthcoding-20180918142500-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-09-19T04:43:49.464Z",
+			"output": {
+				"S3BucketSecureURL": "https://worthcoding-20180918142641--hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://worthcoding-20180918142641--hostingbucket.s3-website.eu-central-1.amazonaws.com",
+				"Region": "eu-central-1",
+				"HostingBucketName": "worthcoding-20180918142641--hostingbucket",
+				"CloudFrontSecureURL": "https://diz8c8vjv8gqi.cloudfront.net",
+				"CloudFrontDistributionID": "ES4NIETCYV5C6",
+				"CloudFrontDomainName": "diz8c8vjv8gqi.cloudfront.net"
+			},
+			"lastPushDirHash": "bbNiJ4oXnCFbKUaRniy/gWLHUnI="
+		}
+	}
+}

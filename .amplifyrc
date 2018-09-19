@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "worthcoding-20180918142500-authRole",
+            "UnauthRoleArn": "arn:aws:iam::037168667233:role/worthcoding-20180918142500-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::037168667233:role/worthcoding-20180918142500-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "worthcoding-20180918142500-deployment",
+            "UnauthRoleName": "worthcoding-20180918142500-unauthRole",
+            "StackName": "worthcoding-20180918142500",
+            "StackId": "arn:aws:cloudformation:eu-central-1:037168667233:stack/worthcoding-20180918142500/dd161050-bb3d-11e8-9f0a-024e51706334"
+        }
+    }
+}
