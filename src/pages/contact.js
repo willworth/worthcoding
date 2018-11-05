@@ -7,8 +7,8 @@ const Contact = () => (
   <Layout>
     <h1>Hi!</h1>
   <blockquote>
-    <p>I'm a Javascript and Python focused coder with  professional experience
-       looking for a full time role developer position in Berlin.</p>
+    <p>I'm a Javascript and Python focused coder with some professional experience
+       looking for a full time role developer position.</p>
     </blockquote>  
    
     <p>Most recently, I've been focusing on Javascript- with Node, express, and React.
