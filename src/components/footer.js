@@ -4,11 +4,11 @@ import { Link } from 'gatsby'
 const Footer = ({ siteTitle }) => (
   <div
     style={{
-      background: '#33261d',
-      // position: 'fixed',
-    bottom: 0,
-    width: '100%',
-    maxheight: 100,
+      background: '#f0a868',
+      position: 'absolute',
+      bottom: 0,
+      width: '100%',
+      maxHeight: 70,
     }}
   >
     <div
@@ -22,7 +22,7 @@ const Footer = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-              float: 'right',
+            float: 'right',
             color: 'white',
             textDecoration: 'none',
           }}
@@ -32,11 +32,11 @@ const Footer = ({ siteTitle }) => (
       </h4>
     </div>
     <div style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '.5rem 1.0875rem',
-      }}>
-    {/* <Link to="/contact/">Contact</Link> */}
+      margin: '0 auto',
+      maxWidth: 960,
+      padding: '.5rem 1.0875rem',
+    }}>
+      {/* <Link to="/contact/">Contact</Link> */}
     </div>
   </div>
 )
